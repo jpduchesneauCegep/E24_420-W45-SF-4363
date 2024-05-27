@@ -449,7 +449,7 @@ ssh website
 
 Je dois pouvoir voir la commande et le résultat de connexion sur votre serveur.
 
-![Exemple de connexion ssh](images/connexionSSH.png)
+
 
 ### Références
 
