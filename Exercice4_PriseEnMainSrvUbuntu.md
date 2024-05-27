@@ -1,4 +1,4 @@
-****# Exercice 4 - prise en main de votre serveur
+# Exercice 4 - prise en main de votre serveur
 
 - Évaluation : formative
 - Type de travail : individuel
