@@ -196,7 +196,7 @@ Exemple de capture acceptable serveur:
 
 - Connectez-vous votre station de travail Ubuntu.
 - Prenez la clé publique générée lors de l'exercice 1 et publiez-la sur votre compte GitHub. Bien sûr, si vous n'avez pas de compte créez-en un. Vous pouvez vous aider du livre Pro Git page 163. Ce livre est  disponible sur Léa.
-- Rendez-vous sur mon dépôt à l'adresse [https://github.com/jpduchesneauCegep/test_ste_foy_ISS.git](https://github.com/claude-roy/test_ste-foy)
+- Rendez-vous sur mon dépôt à l'adresse [https://github.com/jpduchesneauCegep/test_ste_foy_ISS](https://github.com/jpduchesneauCegep/test_ste_foy_ISS)
 - Faite un Fork de mon dépôt. Voir dans le coin droit cet outil :
 ![fork](images/fork.jpg)
 
