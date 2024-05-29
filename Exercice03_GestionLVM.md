@@ -46,7 +46,7 @@ sudo lvs >> FichierLVM.txt
 D'abord il faut ajouter le disque <code>sdb</code> dans le "physiqual volume" : 
 
 ```bash
-sudo pvcreate /dev/sdb # Si sdb est bien le nouveau disque vérifier avec les commandes de la partie 2
+sudo pvcreate /dev/sdb # Si sdb est bien le nouveau disque vérifier avec les commandes de la partie 1
 sudo pvs
 ```
 
