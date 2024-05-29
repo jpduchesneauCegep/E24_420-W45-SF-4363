@@ -68,7 +68,7 @@ Maintenant, nous allons étendre le "logical volume" :
 
 Pour le client :
 ```bash
-sudo lvextend -l +100%FREE /dev/vgubuntu/root 
+sudo lvextend -l +100%FREE /dev/mapper/ubuntu--vg-ubuntu--lv
 # ici j'utilise le nom complet de la partition logique renvoyé par la commande df.
 ```
 Pour le serveur :
