@@ -46,7 +46,7 @@ sudo lvs >> FichierLVM.txt
 D'abord il faut ajouter le disque <code>sdb</code> dans le "physiqual volume" : 
 
 ```bash
-sudo pvcreate /dev/sdb # Si sdb est bien le nouveau disque vérifier avec les commandes de la partie 2
+sudo pvcreate /dev/sdb # Si sdb est bien le nouveau disque vérifier avec la commande lsblk de la partie 1
 sudo pvs
 ```
 
@@ -68,7 +68,7 @@ Maintenant, nous allons étendre le "logical volume" :
 
 Pour le client :
 ```bash
-sudo lvextend -l +100%FREE /dev/vgubuntu/root 
+sudo lvextend -l +100%FREE /dev/mapper/ubuntu--vg-ubuntu--lv
 # ici j'utilise le nom complet de la partition logique renvoyé par la commande df.
 ```
 Pour le serveur :
