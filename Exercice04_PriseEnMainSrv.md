@@ -311,7 +311,7 @@ Vous pouvez modifier le port par défaut de 22 à un numéro de port de votre ch
 - Localisez la ligne <code>Port 22</code> (s'elle est commentée par un #, supprimez le #).
 - Changez la ligne en <code>Port 2522</code> (ou tout autre nombre de votre choix entre 1024 et 65535).
 - Assurez-vous que le nouveau port est autorisé par les coupe-feu (si vous en avez).
-- Redémarrez le démon ssh avec <code>sudo systemctl restart sshd.service</code>.
+- Redémarrez le démon ssh avec <code>sudo systemctl restart ssh.service</code>.
 
 À partir de maintenant, vous devrez spécifier le port pour établir la connexion ssh ou utiliser votre fichier de configuration.
 
@@ -393,7 +393,7 @@ Avant de le faire, vous devez garder à l'esprit les points suivants :
 - Par la suite, sur votre client à l'aide de la commande <code>ssh-copy-id</code> (non disponible sous Windows) ou la commande <code>scp</code> copiez votre clé SSH sur votre serveur.
 
 ```bash
-ssh-copy-id -i .ssh/id_ed25519 {votreusager}@{adresse IP du serveur}
+ssh-copy-id -i .ssh/id_ed25519 -p {port} {votreusager}@{adresse IP du serveur}
 # Entrer le mot de passe de l'usager.
 ```
 
