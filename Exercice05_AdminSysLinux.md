@@ -135,6 +135,8 @@ Remettre, dans le document Word de remise, une capture d’écran des commandes 
 
 ```bash
 tail -n 4 /etc/passwd
+#On ne voit pas cdrom dans le tail /etc/group.
+#cat /etc/group | grep cdrom serait conseillé pour le voir
 tail /etc/group
 ls -l /var/data
 ```
