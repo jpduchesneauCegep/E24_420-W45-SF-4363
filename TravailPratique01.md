@@ -134,7 +134,7 @@ Pour vous aider, consulter les exercices que vous avez faits à ce jour.
 00SK -  Effectuer le déploiement de serveurs internet.
 
 	1 – Analyser le projet de déploiement.
-	2 – Monter les serveurs intranet.
+	2 – Monter les serveurs internet.
 	4 – Procéder au renforcement de la sécurité.
 	6 – Rédiger la documentation.
 
