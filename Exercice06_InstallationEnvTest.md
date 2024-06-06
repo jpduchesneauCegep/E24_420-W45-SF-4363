@@ -1,3 +1,35 @@
+#!/bin/bash
+
+# Vérifier si l'utilisateur a les privilèges root
+if [ $(whoami) != "root" ]; then
+  echo "Ce script doit être exécuté avec les privilèges root."
+  exit 1
+fi
+
+# Demander le nom d'utilisateur
+echo "Nom d'utilisateur : "
+read username
+
+# Vérifier si l'utilisateur existe déjà
+if [ $(grep -q "^$username" /etc/passwd) ]; then
+  echo "L'utilisateur $username existe déjà."
+  exit 1
+fi
+
+# Demander le mot de passe
+echo "Mot de passe : "
+read -s password
+
+# Créer l'utilisateur
+useradd -m -p $(mkpasswd <<< "$password") $username
+
+# Ajouter l'utilisateur au groupe sudo (facultatif)
+if [ "$1" = "-s" ]; then
+  usermod -aG sudo $username
+fi
+
+# Afficher le message de confirmation
+echo "L'utilisateur $username a été créé avec succès."
 # Exercice 6 - Installation d'un environnement de tests sur site
 
 
