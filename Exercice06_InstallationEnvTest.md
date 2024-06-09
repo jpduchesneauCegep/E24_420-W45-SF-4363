@@ -1,4 +1,4 @@
-# Exercice 5 - Installation d'un environnement de tests sur site
+# Exercice 6 - Installation d'un environnement de tests sur site
 
 
 - Évaluation : formative
