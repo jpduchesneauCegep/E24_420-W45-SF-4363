@@ -34,7 +34,7 @@ docker container run -it --rm --name busy1 busybox
 	
 	</details>
 
-- Effectuez une requête ICMP echo request (ping) d'un conteneur vers l'host (votre Ubuntu client). Au besoins, ouvrez deux terminal, un pour docker et l'autre pour votre machine local.Qu'observez-vous ?
+- Effectuez une requête ICMP echo request (ping) d'un conteneur vers l'host (votre Ubuntu client). Au besoin, ouvrez deux terminaux, un pour docker et l'autre pour votre machine locale.Qu'observez-vous ?
 p
 	<details>
 	<summary>Réponse.</summary>
@@ -54,7 +54,7 @@ p
 
 ### Section 1.2 - Réseau none
 
-- Lancez un conteneur, en mode intéractif, de l'image "busybox" avec l'option "<code>--network none</code>"
+- Lancez un conteneur, en mode interactif, de l'image "busybox" avec l'option "<code>--network none</code>"
 
 	<details>
 	<summary>La commande.</summary>
@@ -82,7 +82,7 @@ p
 
 ### Section 1.3 - Réseau host ([Linux seulement](https://docs.docker.com/network/host/))
 
-- Lancez un conteneur, en mode intéractif, de l'image "busybox" avec l'option <code>--network host</code>.
+- Lancez un conteneur, en mode interactif, de l'image "busybox" avec l'option <code>--network host</code>.
 - Essayez de déduire l'adresse IP du conteneur. Qu'observez-vous ?
 
 	<details>
@@ -109,7 +109,7 @@ Dans cette section, vous allez devoir utiliser l'image du serveur Web nginx afin
 
 - Sur un premier terminal, lancez en arrière-plan (<code>-d</code>) l'image "nginx" sans spécifier de redirection de port avec le nom "mon_nginx" (<code>--name</code>).
 - Faite la commande <code>docker container inspect mon_nginx</code> afin de trouver l'adresse du conteneur.
-- Sur un autre terminal, lancez l'image "browsh/browsh" en mode intéractif (<code>-it</code>) ([Documentation browsh/browsh](https://hub.docker.com/r/browsh/browsh)).
+- Sur un autre terminal, lancez l'image "browsh/browsh" en mode interactif (<code>-it</code>) ([Documentation browsh/browsh](https://hub.docker.com/r/browsh/browsh)).
 - Faites un <code>Ctrl-l</code> et tapez l'adresse IP de votre serveur web. Le site par défaut d'Nginx devrait s'afficher. Pour quitter faites <code>Ctrl-q</code> (pour les autres commandes faites <code>F1</code>).
 - À partir de votre navigateur favori, essayer d'ouvrir une page Web à l'adresse IP de votre conteneur nginx. Essayez avec l'adresse locale : `localhost`.
 
@@ -188,7 +188,7 @@ dotnet run
 
 ### Section 4.2 - Création d'un compte docker hub
 
-Cette section n'est pas fonctionnel en ce moment. Je dois faire des vérifications.  SVP, continuez à la section 5, MySQL.
+Cette section n'est pas fonctionnelle en ce moment. Je dois faire des vérifications.  SVP, continuez à la section 5, MySQL.
 
 <details>
 - Allez sur le site de docker hub et créez-vous un compte si ce n'est pas déjà fait.
