@@ -8,8 +8,13 @@
 
 
 ## Attention :
-Vous devez créer une machine depuis le modèle Tmp_Ubuntu2204_iss
-- Bouton droit sur la VM est créer une VM à partir du model.
+Vous devez créer une machine depuis le modèle Tmp_Ubuntu2204_iss_etu
+- Dans la barre de recherche de vSphere tapez Tmp_Ubuntu2204_iss_etu
+- Bouton droit sur la VM est créé une VM à partir du modèle.
+- Donnez comme nom à la nouvelle VM : E24_4363_420W45_Ub_Cli2_[VosInitiales]_[votre_matricle]
+- Placez la VM dans le répertoire du cours (E24_4363_430W45_ISS_JPD)
+- Suivez les étapes habituelles de création d'une VM.
+- Démarrez votre nouvelle VM.
 - Le mot de passe de l'usager Etudiant_vm est **X8owPSTV**
 
 ### Objectifs  
