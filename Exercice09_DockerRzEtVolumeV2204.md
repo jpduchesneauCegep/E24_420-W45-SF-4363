@@ -7,6 +7,11 @@
 - Environnement : Docker.  
 
 
+## Attention :
+Vous devez créer une machine depuis le modèle Tmp_Ubuntu2204_iss
+- Bouton droit sur la VM est créer une VM à partir du model.
+- Le mot de passe de l'usager Etudiant_vm est **X8owPSTV**
+
 ### Objectifs  
 
 - Analyser les différents scénarios de déploiement proposés dans les documents de conception.  

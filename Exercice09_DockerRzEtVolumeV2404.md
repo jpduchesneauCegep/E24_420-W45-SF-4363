@@ -3,7 +3,7 @@
 ### Informations
 - Évaluation : formative.
 - Durée estimée : 4 heures.
-- Système d'exploitation : Ubuntu client ou Windows.
+- Système d'exploitation : Ubuntu client 24.04 ou Windows.
 - Environnement : Docker.  
 
 ### Objectifs  
