@@ -188,7 +188,7 @@ dotnet run
 
 ### Section 4.2 - Création d'un compte docker hub
 
-Cette section n'est pas fonctionnel en ce moment. Je dois faire des vérifications.  SVP, continuez à section 5 MySQL.
+Cette section n'est pas fonctionnel en ce moment. Je dois faire des vérifications.  SVP, continuez à la section 5, MySQL.
 
 <details>
 - Allez sur le site de docker hub et créez-vous un compte si ce n'est pas déjà fait.
