@@ -188,7 +188,7 @@ dotnet run
 ### Section 4.3 - Création d'une image
 
 - Placez-vous à la racine du projet.
-- À l'aide de l'éditeur de texte de votre chois (Nano, Vim, VSCode, etc.) Créez le fichier Dockerfile avec le contenu suivant :
+- À l'aide de l'éditeur de texte de votre choix (Nano, Vim, VSCode, etc.), créez le fichier Dockerfile avec le contenu suivant :
 
 ```Dockerfile
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
