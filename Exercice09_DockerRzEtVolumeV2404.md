@@ -247,7 +247,7 @@ docker image ls
 
 ```bash
 cd ~/Downloads
-sudo apt install ./mysql-workbench-community_8.0.31-1ubuntu22.04_amd64.deb
+sudo apt install ./mysql-workbench-community_8.0.38-1ubuntu22.04_amd64.deb
 # Il se peut que vous ayez à faire
 sudo apt --fix-broken install
 ```
