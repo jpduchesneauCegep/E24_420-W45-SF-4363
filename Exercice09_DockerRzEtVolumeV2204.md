@@ -240,7 +240,7 @@ sudo apt install ./mysql-workbench-community_8.0.31-1ubuntu22.04_amd64.deb
 sudo apt --fix-broken install
 ```
 - Lancez un conteneur à partir de l'image mysql (référence : [https://hub.docker.com/_/mysql](https://hub.docker.com/_/mysql)) :
-  - Nom : mysql
+  - Nom : mysql:8.0.38
   - Spécifiez que le conteneur doit être détaché (-d).
   - Fournissez la valeur "Passw0rd" pour la variable d'environnement "MYSQL\_ROOT\_PASSWORD" (Voir utilisation du -e dans la documentation).
   - Liez le port 3306 local vers le port 3306 du conteneur.
