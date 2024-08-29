@@ -228,7 +228,7 @@ Ouvrez Firefox et entrez votre site Web : http://www.monsite.com:8080.
    
     - Quittez le conteneur en tapant exit.
 
-### Copie des fichiers de confirmation
+### Copie des fichiers de configuration
 
 Nous allons récupérer quelques fichiers de configurations dans le but de pouvoir les réutiliser plus tard.
 
