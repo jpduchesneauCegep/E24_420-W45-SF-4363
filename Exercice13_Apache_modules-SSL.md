@@ -505,3 +505,25 @@ Est-ce que votre site Web fonctionne avec SSL maintenant (utiliser https://www.m
 ## Pour vérification
 
 Remettre la capture sur LÉA
+
+## Compétences développées
+
+FW15 – Organiser le système d’exploitation afin de le sécuriser. 	
+  - FW15 # 3 – Distinguer les étapes d’organisation et gestion du système de fichiers/exploitations.
+  - FW15 # 4 – Expliquer l’installation des services réseau.
+  - FW15 # 5 – Utiliser la journalisation à des fins de sécurité.
+
+Note : les compétences sont développées en partie.
+
+## Références
+https://httpd.apache.org/docs/2.4/ 
+
+https://cwiki.apache.org/confluence/display/httpd/DistrosDefaultLayout 
+
+https://hub.docker.com/_/httpd 
+
+https://docs.docker.com/compose/compose-file/
+
+https://docs.docker.com/engine/reference/builder/ 
+
+https://www.sslshopper.com/article-how-to-create-and-install-an-apache-self-signed-certificate.html 
