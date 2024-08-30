@@ -400,7 +400,7 @@ Oui. Sinon, dépanner.
 
 - Vous pouvez arrêter votre site Web.
 
-### Partie 3 : Site Web sécurisé
+## Section 3 : Site Web sécurisé
 Dans cette partie, nous allons ajouter le chiffrement TLS (souvent encore appelé SSL) à notre site Web. Nous allons commencer par nous générer un certificat, puis nous allons l’activer dans notre serveur httpd.
 
 #### Générer un certificat
