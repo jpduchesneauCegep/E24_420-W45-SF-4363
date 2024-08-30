@@ -25,6 +25,7 @@ Nous allons utiliser docker-compose pour se créer un conteneur Apache personnal
 - Remplacer le fichier de configuration httpd.conf par le nôtre.
 - Créer un répertoire /srv/htdocs.
 - Créer un point de montage du répertoire actuel au répertoire /srv/htdocs.
+  
 **ATTENTION :Sauf si on vous le précise, vous travaillerez toujours à partir de /home/$user/Dev/Sites.**
 - Installez les logiciels nano (ou vim) et iproute (pour vérification réseau).
 
