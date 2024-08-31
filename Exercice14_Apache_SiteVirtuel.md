@@ -380,10 +380,12 @@ Remettre une capture d’écran de votre Linux avec Firefox ouvert sur les deux 
 
 ## Compétences développées
 
-FW15 – Organiser le système d’exploitation afin de le sécuriser. 	
-  - FW15 # 3 – Distinguer les étapes d’organisation et gestion du système de fichiers/exploitations.
-  - FW15 # 4 – Expliquer l’installation des services réseau.
-  - FW15 # 5 – Utiliser la journalisation à des fins de sécurité.
+00SJ – Effectuer le déploiement de serveurs intranet. 	
+- 00SJ # 1 – Analyser le projet de déploiement.
+- 00SJ # 2 – Monter les serveurs intranet.
+- 00SJ # 3 – Installer les services intranet.
+- 00SJ # 5 – Participer à la mise en service des serveurs intranet.
+
 
 Note : les compétences sont développées en partie.
 
