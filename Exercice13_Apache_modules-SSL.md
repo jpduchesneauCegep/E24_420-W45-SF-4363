@@ -272,7 +272,9 @@ networks:
 ```
 
 <details>
+
 <summary>Explication détaillée du fichier Doocker-compose</summary>
+
 
 Le code fourni est un fichier de configuration Docker Compose, écrit en YAML, qui définit un ensemble de services et de réseaux pour une application web. Voici un aperçu de la configuration :
 
