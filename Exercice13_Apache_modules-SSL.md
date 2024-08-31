@@ -250,22 +250,22 @@ version: "3.2"
 
 services:
   php:
-        build: './php/'
-        networks:
-            - backend
-        volumes:
-            - ./monsite/html:/srv/htdocs
-    apache:
-        build: './monsite/'
-        depends_on:
-            - php
-        networks:
-            - frontend
-            - backend
-        ports:
-            - "8080:80"
-        volumes:
-            - ./monsite/html:/srv/htdocs
+    build: './php/'
+    networks:
+      - backend
+    volumes:
+      - ./monsite/html:/srv/htdocs
+  apache:
+    build: './monsite/'
+    depends_on:
+      - php
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./monsite/html:/srv/htdocs
 networks:
     frontend:
     backend:
