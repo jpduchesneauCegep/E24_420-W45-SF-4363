@@ -342,6 +342,7 @@ COPY ./conf/httpd.conf httpd.conf
 Pourquoi la commande COPY a-t-elle changé ? 
 
 <details>
+<summary>Réponse</summary>
 Notre Dockerfile est maintenant dans le répertoire monsite. La compilation se fait à partir du répertoire du Dockerfile.
 </details>
 
@@ -412,7 +413,7 @@ Si vous avez plusieurs sites, vous devriez utiliser des noms de clé et de certi
 - Procédez aux modifications demandées.
 
 <details>
-
+<summary>Réponse</summary>
 - Ajouter les lignes suivantes à monsite/Dockerfile
 
 ```YAML
@@ -437,6 +438,7 @@ Include conf/extra/httpd-ssl.conf
 
 - Est-ce que votre site Web fonctionne avec SSL ? 
 <detail>
+<summary>Réponse</summary>
 Oui, mais nous avons l’erreur : You don't have permission to access / on this server.
 </detail>
 
