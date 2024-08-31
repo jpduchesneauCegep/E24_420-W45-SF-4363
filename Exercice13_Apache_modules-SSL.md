@@ -437,10 +437,11 @@ Include conf/extra/httpd-ssl.conf
 -	Lancer (utiliser l’option --build) et vérifier que votre serveur est bien lancé et utilise maintenant https. (Utiliser https://www.monsite.com, car nous n’avons pas encore de serveur virtuel).
 
 - Est-ce que votre site Web fonctionne avec SSL ? 
-<detail>
+
+<details>
 <summary>Réponse</summary>
 Oui, mais nous avons l’erreur : You don't have permission to access / on this server.
-</detail>
+</details>
 
 Le certificat fonctionne, mais il a des droits qui ne sont pas bien configurés (plutôt des configurations manquantes). 
 
