@@ -309,7 +309,8 @@ Le fichier définit deux services, php et apache :
   La mise en place des réseau permet aussi la résolution de nom.
 
 
-***Généré par Blackbox AI Chat et traduit par DeepL Write***
+***Générer avec Explain Code de BlackBox AI.
+Traduit avec www.DeepL.com/Translator (version gratuite)***
 
 ---
 </details>
