@@ -306,37 +306,6 @@ Le fichier définit deux services, php et apache :
 
   La mise en place des réseau permet aussi la résolution de nom.
 
-Fichier de configuration Docker Compose
-
-Le code fourni est un fichier de configuration Docker Compose, écrit en YAML, qui définit un ensemble de services et de réseaux pour une application web. Voici un aperçu de la configuration :
-
-Services
-
-Le fichier définit deux services :
-
-  php  et apache
-
-PHP
-    
-build : L'image Docker pour ce service est construite à partir du répertoire ./php/, qui contient le fichier Docker pour l'application PHP.
-
-networks : Le service est connecté au réseau backend.
-
-volumes : Le répertoire ./monsite/html sur la machine hôte est monté dans /srv/htdocs à l'intérieur du conteneur, ce qui permet à l'application PHP d'accéder aux fichiers HTML du site web.
-
-Apache :
-
-build : L'image Docker pour ce service est construite à partir du répertoire ./monsite/, qui contient le fichier Docker pour le serveur web Apache.
-
-depends_on : Le service Apache dépend du service php, ce qui signifie qu'il ne démarrera que lorsque le service php sera opérationnel.
-
-networks : Le service est connecté aux réseaux frontend et backend.
-
-ports : Le port 80 du conteneur est exposé au port 8080 de la machine hôte, ce qui permet un accès externe au serveur web.
-
-volumes : Le même répertoire ./monsite/html est monté dans /srv/htdocs à l'intérieur du conteneur, ce qui permet au serveur Apache de servir les fichiers HTML du site web.
-
-Réseaux : Génère deux réseaux permettant de faire de la connectivité  entre les conteneurs et également de la résolution de nom.
 
 ***Généré par Blackbox AI Chat et traduit par DeepL Write***
 </details>
