@@ -376,7 +376,7 @@ Vous allez maintenant ajouter le deuxième site, site02.com. Voici les spécific
 
 Remettre une capture d’écran de votre Linux avec Firefox ouvert sur les deux sites de votre serveur Web et un shell qui affiche le répertoire /var/log/apache2.
 
-[images](images/VerificationEx14.png)
+(images/VerificationEx14.png)
 
 ## Compétences développées
 
