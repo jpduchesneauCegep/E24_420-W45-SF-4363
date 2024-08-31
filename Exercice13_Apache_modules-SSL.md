@@ -127,6 +127,17 @@ Nous allons restructurer notre environnement dans le but qu’elle soit davantag
 - Dans le répertoire monsite, créer un répertoire conf et y copier le fichier httpd.conf récupéré dans l’exercice précédent. 
 - Créer également un répertoire html et y déplacer le fichier index.html créé dans l’exercice précédent.
 
+```bash
+  /home/$user/Dev/Sites/
+                  |--monsite/
+                    |conf/
+                      |-- httpd.conf
+                    |html/
+                      |-- index.html
+             
+```
+
+
 - Maintenant, nous allons créer une image qui répond à notre demande. Dans le répertoire Sites, créer un fichier Dockerfile avec les informations suivantes : 
 
 ```yaml
