@@ -308,6 +308,8 @@ Le fichier définit deux services, php et apache :
 
 
 ***Généré par Blackbox AI Chat et traduit par DeepL Write***
+
+---
 </details>
 
 Vous pouvez voir que nous utilisons deux réseaux et que nous les nommons. Porter également attention à la dépendance de httpd par rapport à php.
