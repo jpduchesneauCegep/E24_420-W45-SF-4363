@@ -1,6 +1,6 @@
 #  Exercice 15 :  Nginx ­
 ````diff
-+ Corrigé
+- Corrigé
 ````
 ### Informations
 - Évaluation : formative.
