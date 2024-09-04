@@ -189,8 +189,9 @@ https://docs.nginx.com/nginx/admin-guide/
 
 https://hub.docker.com/_/nginx 
 
+## Solution partie 2
 ­<details>
-<summary>Solution partie 2</summary>
+<summary>Développer en cliquant</summary>
 
 ### docker-compose.yml
 
