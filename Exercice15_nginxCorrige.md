@@ -1,4 +1,4 @@
-#  Exercice 15 :  Nginx ­<span style="color:#FF0000">(Corrigé)
+#  Exercice 15 :  Nginx ­<span style="color: red">(Corrigé)</span>
 
 ### Informations
 - Évaluation : formative.
