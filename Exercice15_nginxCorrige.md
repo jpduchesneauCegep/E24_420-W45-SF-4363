@@ -1,5 +1,7 @@
-#  Exercice 15 :  Nginx ­<span style="color: red">(Corrigé)</span>
-
+#  Exercice 15 :  Nginx ­
+````diff
++ Corrigé
+````
 ### Informations
 - Évaluation : formative.
 - Type de travail : individuel
@@ -74,29 +76,38 @@ https://docs.nginx.com/nginx/admin-guide/
 
 -	Quelle est l’utilité de la directive user ?  
 
-    ­<span style="color:#FF0000"> L’utilisateur sous lequel s’exécute nginx. </span>
-
+   ````diff
+- L’utilisateur sous lequel s’exécute nginx. ````
+````
 -	Quelle est l’utilité de la directive worker_process ? 
-­<span style="color:#FF0000">The number of worker processes is defined by the worker_processes directive in the nginx.conf configuration file and can either be set to a fixed number or configured to adjust automatically to the number of available CPU cores.</span>
+
+````diff
+-  The number of worker processes is defined by the worker_processes directive in the nginx.conf configuration file and can either be set to a fixed number or configured to adjust automatically to the number of available CPU cores.
+````
 
 -	À quel endroit se trouvent les logs et sont-ils gérés par docker ? 
+````diff
+- error_log  /var/log/nginx/error.log notice;
+- access_log  /var/log/nginx/access.log  main;
 
-    ­<span style="color:#FF0000">error_log  /var/log/nginx/error.log notice;</span>
-
-    ­<span style="color:#FF0000">access_log  /var/log/nginx/access.log  main;</span>
-
-    ­<span style="color:#FF0000">Oui, ils sont gérés quand même par docker, si l'on fait la commande docker container logs some-nginx, on les voit.
-</span>
+- Oui, ils sont gérés quand même par docker, si l'on fait la commande docker container logs some-nginx, on les voit.
+````
 
 - Pourquoi ne voit-on pas de contexte server dans le contexte http? 
-  ­<span style="color:#FF0000"> Car nous avons include /etc/nginx/conf.d/*.conf;. Dans conf.d/ nous avons le fichier default.conf qui contient le contexte server.</span>
+
+````diff
+- Car nous avons include /etc/nginx/conf.d/*.conf;. Dans conf.d/ nous avons le fichier default.conf qui contient le contexte server.
+````
 
 - Suite à la réponse de la question précédente, comment pouvons-nous implanter des hôtes virtuels avec cette version de nginx ?
-    ­<span style="color:#FF0000">  En créant un fichier hote.conf par hôte virtuel dans conf.d/.</span>
 
--	Récupérer les fichiers nginx.conf et  /etc/nginx/conf.d/default.conf.
+````diff
+- En créant un fichier hote.conf par hôte virtuel dans conf.d/.
+````
 
--	Arrêter votre conteneur.
+- Récupérer les fichiers nginx.conf et  /etc/nginx/conf.d/default.conf.
+
+- Arrêter votre conteneur.
 
 
 ### Étape 2 : Hôtes virtuels
@@ -178,8 +189,8 @@ https://docs.nginx.com/nginx/admin-guide/
 
 https://hub.docker.com/_/nginx 
 
-­<details>Solution partie 2
-
+­<details>
+<summary>Solution partie 2</summary>
 
 ### docker-compose.yml
 
