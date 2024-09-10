@@ -82,15 +82,16 @@ services:
       - frontend
       - backend
     ports:
-      - "8080:80"
+      - '8080:80'
+      - '443:443'
     volumes:
       - ./monsite/html:/srv/htdocs
   mariadb:
     image: mariadb:latest
-    network: 
-      -backend
-    environnent:
-    - MYSQL_ROOT_PASSWORD=rootpassword
+    networks: 
+      - backend
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
 networks:
     frontend:
     backend:
