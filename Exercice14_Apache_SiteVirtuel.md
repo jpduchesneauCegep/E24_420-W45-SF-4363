@@ -187,7 +187,7 @@ Voici à quoi devrait ressembler votre fichier
 ```bash
 cd ~/Dev/vSites/conf
 $ docker container exec -it vsites-apache01 cat /usr/local/apache2/conf/httpd.conf > httpd.conf 
-;
+
 # Modifier la commandes pour l'ajuster à votre envrionnement.
 # Vous pouvez également utiliser la commande docker cp. 
 ```
