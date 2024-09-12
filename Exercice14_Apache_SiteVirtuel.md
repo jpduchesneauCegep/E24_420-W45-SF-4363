@@ -82,15 +82,16 @@ services:
       - frontend
       - backend
     ports:
-      - "8080:80"
+      - '8080:80'
+      - '443:443'
     volumes:
       - ./monsite/html:/srv/htdocs
   mariadb:
     image: mariadb:latest
-    network: 
-      -backend
-    environnent:
-    - MYSQL_ROOT_PASSWORD=rootpassword
+    networks: 
+      - backend
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
 networks:
     frontend:
     backend:
@@ -186,7 +187,7 @@ Voici à quoi devrait ressembler votre fichier
 ```bash
 cd ~/Dev/vSites/conf
 $ docker container exec -it vsites-apache01 cat /usr/local/apache2/conf/httpd.conf > httpd.conf 
-;
+
 # Modifier la commandes pour l'ajuster à votre envrionnement.
 # Vous pouvez également utiliser la commande docker cp. 
 ```
