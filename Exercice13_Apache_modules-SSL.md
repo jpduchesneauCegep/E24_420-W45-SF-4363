@@ -86,8 +86,6 @@ docker-compose up
 ## Mise en place du projet
 Nous allons commencer par reproduire la commande de l’exercice précédent. Dans le répertoire Sites, créer un fichier docker-compose.yml avec les instructions suivantes à l’intérieur.
 ```yaml
-version: "3"
-
 services:
   my-apache-app:
     image: httpd # utilise l’image la plus récente
@@ -245,8 +243,6 @@ Nous allons faire de petits changements dans notre structure.
 - Modifier votre fichier docker-compose pour inclure php et tenir compte des modifications que nous avons faites.
 
 ```yaml
-version: "3.2"
-
 services:
   php:
     build: './php/'
