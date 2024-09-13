@@ -40,7 +40,7 @@ Pour ce faire, faites-la commande suivante :|
 ```bash
 docker-compose --version
 ```
-Vous devez avoir la version 2.4.29 ou plus.
+Vous devez avoir la version 2.4.[1] ou plus.
 Si ce n'est pas le cas, vous pouvez l'installer avec les commandes suivantes :
 ```bash
 # Nous récupérons docker-compose depuis GitHub.
