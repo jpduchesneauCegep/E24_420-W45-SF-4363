@@ -54,7 +54,7 @@ Vérifier à nouveau sa version, faites-la comme suivante :|
 ```bash
 docker-compose --version
 ```
-Vous devriez maintenant avoir la version 2.4.29
+Vous devriez maintenant avoir la version 2.4.[1 ou plus]
 #### Syntaxe du fichier docker-compose.yml
 voici des informations sur la syntaxe d’un fichier docker-compose.yml.
 ```yaml
