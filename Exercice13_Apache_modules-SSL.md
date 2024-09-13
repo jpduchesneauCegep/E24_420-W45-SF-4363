@@ -58,9 +58,8 @@ Vous devriez maintenant avoir la version 2.4.[1 ou plus]
 #### Syntaxe du fichier docker-compose.yml
 voici des informations sur la syntaxe d’un fichier docker-compose.yml.
 ```yaml
-version: '3.8'  # si aucune version n'est spécifiée, alors v1.
-                # Minimum v2 recommandé
-
+#version: '3.8'  # Build is an optional part of the Compose Specification. It tells Compose how to (re)build an application from source and lets you define the build process within a Compose file in a portable way. build can be either specified as a single string defining a context path, or as a detailed build definition.
+             
 services:  # conteneurs. Identique à docker run
   servicename: # un nom convivial.
 # C'est aussi le nom DNS à l'intérieur du réseau
