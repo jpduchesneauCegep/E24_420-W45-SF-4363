@@ -40,7 +40,7 @@ Pour ce faire, faites-la commande suivante :|
 ```bash
 docker-compose --version
 ```
-Vous devez avoir la version 2.4.29 ou plus.
+Vous devez avoir la version 2.4.[1] ou plus.
 Si ce n'est pas le cas, vous pouvez l'installer avec les commandes suivantes :
 ```bash
 # Nous récupérons docker-compose depuis GitHub.
@@ -54,13 +54,12 @@ Vérifier à nouveau sa version, faites-la comme suivante :|
 ```bash
 docker-compose --version
 ```
-Vous devriez maintenant avoir la version 2.4.29
+Vous devriez maintenant avoir la version 2.4.[1 ou plus]
 #### Syntaxe du fichier docker-compose.yml
 voici des informations sur la syntaxe d’un fichier docker-compose.yml.
 ```yaml
-version: '3.8'  # si aucune version n'est spécifiée, alors v1.
-                # Minimum v2 recommandé
-
+#version: '3.8'  # Build is an optional part of the Compose Specification. It tells Compose how to (re)build an application from source and lets you define the build process within a Compose file in a portable way. build can be either specified as a single string defining a context path, or as a detailed build definition.
+             
 services:  # conteneurs. Identique à docker run
   servicename: # un nom convivial.
 # C'est aussi le nom DNS à l'intérieur du réseau
@@ -87,8 +86,6 @@ docker-compose up
 ## Mise en place du projet
 Nous allons commencer par reproduire la commande de l’exercice précédent. Dans le répertoire Sites, créer un fichier docker-compose.yml avec les instructions suivantes à l’intérieur.
 ```yaml
-version: "3"
-
 services:
   my-apache-app:
     image: httpd # utilise l’image la plus récente
@@ -246,8 +243,6 @@ Nous allons faire de petits changements dans notre structure.
 - Modifier votre fichier docker-compose pour inclure php et tenir compte des modifications que nous avons faites.
 
 ```yaml
-version: "3.2"
-
 services:
   php:
     build: './php/'

@@ -1,4 +1,4 @@
-#  Exercice 14 :  Apache, installation d'un site Web et site virtuel
+F#  Exercice 14 :  Apache, installation d'un site Web et site virtuel
 
 ### Informations
 - Évaluation : formative.
@@ -65,7 +65,7 @@ echo "Connexion réussie à MariaDB!";
 
 
 ```yaml
-version: "3.2"
+##version: "3.2"
 
 services:
   php:
@@ -268,7 +268,7 @@ COPY conf/httpd-vhosts.conf extra/httpd-vhosts.conf
 <summary>Modifier le fichier docker-compose</summary>
 
  ```bash
-version: "3.2"
+#version: "3.2"
 
 services:
     apache:
@@ -344,7 +344,7 @@ Vous avez donc réalisé un premier site virtuel. Continuons avec les logs du si
 
 
  ```bash
-version: "3.2"
+#version: "3.2"
 
 services:
     apache:
