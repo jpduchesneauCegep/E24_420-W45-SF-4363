@@ -1,4 +1,4 @@
-# Exercice 117 - Ansible  - Installation et configuration de base
+# Exercice 17 - Ansible  - Installation et configuration de base
 
 ### Informations
 - Évaluation : formative.
