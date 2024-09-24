@@ -222,7 +222,7 @@ Utiliser les informations suivantes pour créer la seconde machine :
 - Sélectionnez le modèle de VM et cliquez sur le bouton droit de votre souris et sélectionnez <code> New VM from this Template</code>
 - Suivez les étapes 
     - Nom de la VM : `srv-apache-[matricule]`
-    - Emplacement : DFC DS -> VM DFC -> A24\_4363\_420W45\_ISS\_JPD
+    - Emplacement : DFC DS -> VM DFC -> E24\_4363\_420W45\_ISS\_JPD
     - Stockage : ESXDFC2
 - L’utilisateur / mot de passe est : user1 / S0l&il   
 - Après votre connexion, changer les informations suivantes 
