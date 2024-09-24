@@ -143,7 +143,7 @@ https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-man
 
 ```bash
 sudo apt update && sudo apt install python3-pip -y
-sudo pip install ansible-lint
+sudo pip install ansible-lint --break-system-packages
 # Finalement, nous pouvons vérifier le fichier: 
 ansible-lint deploy.yaml
 ```
