@@ -38,7 +38,7 @@ Voici les tâches à réaliser dans cet exercice :
   - Testez l'effet du module "setup" sur votre inventaire.
 
 
-## Section 1 : Un hôte
+## Section 1 : Test de l'idempotence
 
 ### Sur votre machine de contrôle 
 
