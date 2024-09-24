@@ -138,6 +138,9 @@ vim deploy.yaml
 ### 5- Vérifier la syntaxe du playbook
 Pour avoir l'outil de vérification de la syntaxe, nous aurons besoin d'ansible-lint qui s'installe avec l'installateur de package pour Python PIP. Voici les étapes :
 
+#### Voir ce lien si erreur python - DG
+https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-managed-environment-every-time-i-use-pip-3
+
 ```bash
 sudo apt update && sudo apt install python3-pip -y
 sudo pip install ansible-lint
