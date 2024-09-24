@@ -184,7 +184,7 @@ DFC DS -> VM DFC -> Modeles -> ClaudeRoy -> TPL\_20231002\_UbSrv2204_BaseSmall
 - Sélectionnez le modèle de VM et cliquez sur le bouton droit de votre souris et sélectionnez <code>Nouvelle VM à partir de ce modèle...</code>
 - Suivez les étapes 
     - Nom de la VM : srv-mysql-[matricule]
-    - Emplacement : DFC DS -> VM DFC -> H24\_4363\_420W45\_ISS\_JPD
+    - Emplacement : DFC DS -> VM DFC -> E24\_4363\_420W45\_ISS\_JPD
     - Stockage : ESXDFC2
 - L’utilisateur / mot de passe est : user1 / S0l&il.    
  
